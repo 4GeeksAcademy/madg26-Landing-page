@@ -9,3 +9,33 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#navbarNavAltMarkup{
+    flex-grow: 0;
+}
+.navbar-brand, .nav-link{
+    color: white;
+}
+.row>*{
+    padding-right: 0;
+    padding-left: 0;
+}
+.jumbo{
+ background-color: aqua;
+}
+.myFooter{
+    height: 40px;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+.container{
+    padding-top: 3em;
+}
+#imagen{
+    height: 180px;
+    width: auto;
+}
